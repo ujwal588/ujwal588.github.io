@@ -294,3 +294,28 @@ footer {
 li{
     list-style-position: inside;
 }
+#theme-toggle {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: inherit;
+}
+
+#theme-toggle:focus {
+    outline: none;
+}
+body.dark-theme {
+    --background-color: #2c2c2c;
+    --text-color: #e0e0e0;
+    --subtext-color: #aaa;
+    --header-bg: #3e2723;
+    --header-text: #d7ccc8;
+    --section-bg: #1e1e1e;
+    --heading-color: #d7ccc8;
+    --skill-bg: #3e2723;
+    --footer-bg: #3e2723;
+    --footer-text: #d7ccc8;
+    --accent-color: #a1887f;
+    --accent-hover: #795548;
+}
